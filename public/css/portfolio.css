@@ -50,6 +50,10 @@ hr {
     color: gray;
 }
 
+.btn {
+    text-shadow: none;
+}
+
 /* Project Section */
 .jumbotron {
     margin-top: 80px;
@@ -59,11 +63,12 @@ hr {
 
 }
 
-.project-paragraph {
-    padding-top: 1%;
+.project-heading {
+    padding: 3% 2%;
     line-height: 2;
 
 }
+
 
 .display-3 {
     font-weight: 400;
