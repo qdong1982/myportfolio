@@ -20,45 +20,47 @@
 
   <!-- Our Stylesheet -->
   <link rel="stylesheet" href="public/css/portfolio.css">
-
+  
 </head>
+<main>
+   <!-- NAVIGATION -->
+   <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-dark pt-0">
+      <div class="container">
+        <a class="navbar-brand" href="#"><i class="fas fa-globe"></i> I'm Quang</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto justify-content-start">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#project">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skill">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimony">Testimony</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact <span class="fas fa-envelope-open-text"></span></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+</main>
 
 <body>
 
-  <!-- NAVIGATION -->
-  <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-dark pt-0">
-    <div class="container">
-      <a class="navbar-brand" href="#"><i class="fas fa-globe"></i> I'm Quang</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto justify-content-start">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#project">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#skill">Skills</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#testimony">Testimony</a>
-          </li>
-        </ul>
-        <ul class="navbar-nav justify-content-end">
-          <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact <span class="fas fa-envelope-open-text"></span></a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
 
   <!-- STATEMENT -->
   <div class="container-fluid">
@@ -91,7 +93,7 @@
               <p class="card-text">This is my first project 1.</p>
               <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
               <a href="#" class="btn btn-outline-success btn-sm">SEE CODE</a>
-              <a href="#" class="btn btn-outline-success btn-sm">DEMO</a>
+              <a href="https://bit.ly/32m4579" class="btn btn-outline-success btn-sm" target="_blank">DEMO</a>
             </div>
           </div>
         </div>
@@ -150,28 +152,29 @@
           <div class="col-lg-4  col-md-12 mb-4 ">
             <div class="card">
                
-              <div class="card-body">
+              <div class="card-body mb-4">
                   <i class="icon fas fa-bullseye fa-4x"></i>
                 <h5 class="card-title">Technology</h5>
-                <p class="card-text">This is my first project 1.</p>
-                <p class="card-text">This is my first project 1.</p>
-                <p class="card-text">This is my first project 1.</p>
-                <p class="card-text">This is my first project 1.</p>
-                >
+               <div class="list-skill">
+                <li>HTML & CSS3</li>
+               <li>JavaScript & Node.js</li>
+               <li>API & Rest</li>
+              </div>
               </div>
             </div>
           </div>
           <div class="col-lg-4  col-md-12 mb-4 ">
               <div class="card">
                  
-                <div class="card-body">
+                <div class="card-body mb-4">
                     <i class="icon fas fa-bullseye fa-4x"></i>
-                  <h5 class="card-title">Technology</h5>
-                  <p class="card-text">This is my first project 1.</p>
-                  <p class="card-text">This is my first project 1.</p>
-                  <p class="card-text">This is my first project 1.</p>
-                  <p class="card-text">This is my first project 1.</p>
-                  >
+                  <h5 class="card-title">Database & Framework</h5>
+                  <div class="list-skill">
+                  <li>Bootstrap</li>
+                  <li>jQuery</li>
+                  <li>NoSQL</li>
+                </div>
+                  
                 </div>
               </div>
             </div>
@@ -180,12 +183,13 @@
                    
                   <div class="card-body">
                       <i class="icon fas fa-bullseye fa-4x"></i>
-                    <h5 class="card-title">Technology</h5>
-                    <p class="card-text">This is my first project 1.</p>
-                    <p class="card-text">This is my first project 1.</p>
-                    <p class="card-text">This is my first project 1.</p>
-                    <p class="card-text">This is my first project 1.</p>
-                    >
+                    <h5 class="card-title">Tools</h5>
+                    <div class="list-skill">
+                        <li>Version Control</li>
+                       <li>Atom, VSCode</li>
+                       <li>Photoshop & XD</li>
+                       <li>Command Line</li>
+                      </div>
                   </div>
                 </div>
               </div>
@@ -194,6 +198,7 @@
   <!-- TESTIMONY SECTION -->
 </body>
 
+
 <!-- JS -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
   integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -201,5 +206,12 @@
   integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
   integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<script>
+
+    $('.navbar-collapse a').click(function(){
+        $(".navbar-collapse").collapse('hide');
+    });
+    </script>
 
 </html>

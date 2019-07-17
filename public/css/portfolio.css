@@ -1,7 +1,11 @@
+main {
+    text-align: start;
+}
+
 body {
     background: url(https://images.unsplash.com/photo-1542831371-d531d36971e6?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80);
     background-size: cover;
-    font-family: font-family: 'Lato', sans-serif;
+    font-family: 'Lato', sans-serif;
     color: white;
     text-align: center;
 }
@@ -87,10 +91,25 @@ hr {
     text-align: center;
 }
 
-@media (max-width:800px) {
+.list-skill {
+    text-align: left;
+    position: relative;
+    left: 35%;
+}
+
+@media (max-width:576px) {
+    h1 {
+        font-weight: 700;
+        font-size: 3em;
+        padding-top: 7%
+    }
+}
+
+@media (max-width:667px) {
     h1 {
         font-weight: 700;
         font-size: 4em;
+        padding-top: 7%
     }
 }
 
